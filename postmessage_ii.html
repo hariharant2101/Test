@@ -1,10 +1,13 @@
 <html>
   <body>
-    <iframe id="frame" onload="functionName()" src="http://ptl-a2c4f90e-8cb7e419.libcurl.so/"></iframe>
+    <iframe id="frame" onload="functionName()" src="https://ptl-a2c4f90e-8cb7e419.libcurl.so/"></iframe>
     <script>
-      function functionName(){
-        setTimeout(funtion(){document.getElementById("frame").contentWindow.postMessage('user=hariharan&id=0','*');},2000);
+      function functionName() {
+        setTimeout(function() {
+          document.getElementById("frame").contentWindow.postMessage('user=hariharan&id=0', '*');
+        }, 2000);
       }
     </script>
   </body>
 </html>
+
